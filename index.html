@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================= -->
+    <!-- META -->
+    <!-- ========================================= -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Champion</title>
+
+    <!-- ========================================= -->
+    <!-- GOOGLE FONTS -->
+    <!-- ========================================= -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<!-- ====================================================== -->
+<!-- LOADER -->
+<!-- ====================================================== -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-ball"></div>
+
+        <h1>Loading Birthday Celebration...</h1>
+
+    </div>
+
+</div>
+
+<!-- ====================================================== -->
+<!-- BACKGROUND MUSIC -->
+<!-- ====================================================== -->
+
+<audio id="birthdayMusic" loop>
+
+    <source src="assets/music/birthday-song.mp3"
+            type="audio/mpeg">
+
+</audio>
+
+<!-- ====================================================== -->
+<!-- ENTER SCREEN -->
+<!-- ====================================================== -->
+
+<section id="enterScreen">
+
+    <div class="overlay"></div>
+
+    <div class="enter-content">
+
+        <h2>WELCOME</h2>
+
+        <h1>To The Birthday Celebration</h1>
+
+        <p>
+
+            A special surprise is waiting for our Champion.
+
+        </p>
+
+        <button id="enterBtn">
+
+            🎉 Enter Celebration 🎉
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ====================================================== -->
+<!-- CINEMATIC INTRO -->
+<!-- ====================================================== -->
+
+<section id="intro">
+
+    <!-- Stars -->
+
+    <div class="intro-stars"></div>
+
+    <!-- Stadium Lights -->
+
+    <div class="intro-light"></div>
+
+    <!-- Animated Sports -->
+
+    <div class="intro-football"></div>
+
+    <div class="intro-chess"></div>
+
+    <div class="intro-cricket"></div>
+
+    <!-- Hero Image -->
+
+    <div class="intro-photo">
+
+        <img src="assets/photos/hero.jpg"
+             alt="Birthday Boy">
+
+    </div>
+
+    <!-- Intro Text -->
+
+    <div class="intro-text">
+
+        <h3>Happy 11th Birthday</h3>
+
+        <h1>Champion</h1>
+
+        <p>
+
+            Dream Big • Play Hard • Keep Winning
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ====================================================== -->
+<!-- MAIN WEBSITE -->
+<!-- ====================================================== -->
+
+<main id="website">
+
+<!-- ====================================================== -->
+<!-- HERO SECTION -->
+<!-- ====================================================== -->
+
+<section id="hero">
+
+    <!-- Background Decoration -->
+
+    <div class="hero-background"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-particles"></div>
+
+    <div class="hero-light left-light"></div>
+
+    <div class="hero-light right-light"></div>
+
+    <!-- Floating Sports -->
+
+    <div class="hero-ball"></div>
+
+    <div class="hero-chess"></div>
+
+    <div class="hero-cricket"></div>
+
+    <!-- Main Content -->
+
+    <div class="hero-content">
+
+        <img src="assets/photos/hero.jpg"
+             alt="Birthday Boy">
+
+        <h3>Happy 11th Birthday</h3>
+
+        <h1>Champion</h1>
+
+        <p>
+
+            Dream Big • Play Hard • Keep Winning
+
+        </p>
+
+        <div class="hero-scroll">
+
+            <span>Scroll Down</span>
+
+            <div class="mouse"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ====================================================== -->
+<!-- CAKE SECTION -->
+<!-- ====================================================== -->
+
+<section id="cake">
+
+    <div class="cake-background"></div>
+
+    <div class="cake-stars"></div>
+
+    <!-- Decorative Balloons -->
+
+    <div class="balloon red"></div>
+
+    <div class="balloon blue"></div>
+
+    <div class="balloon green"></div>
+
+    <div class="balloon yellow"></div>
+
+    <div class="cake-content">
+
+        <h2>Make A Birthday Wish</h2>
+
+        <p>
+
+            Blow out the candles and make your wish!
+
+        </p>
+
+        <!-- Cake -->
+
+        <div id="cakeContainer">
+
+            <div class="cake-plate"></div>
+
+            <div class="layer layer1"></div>
+
+            <div class="layer layer2"></div>
+
+            <div class="layer layer3"></div>
+
+            <div class="icing icing1"></div>
+
+            <div class="icing icing2"></div>
+
+            <div class="icing icing3"></div>
+
+            <div class="candles">
+
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button id="blowCandles">
+
+            Blow The Candles 🎂
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+    <!-- ====================================================== -->
+<!-- FOOTBALL WORLD -->
+<!-- ====================================================== -->
+
+<section id="football">
+
+    <div class="football-bg"></div>
+    <div class="football-overlay"></div>
+
+    <div class="stadium-left-light"></div>
+    <div class="stadium-right-light"></div>
+
+    <div class="grass"></div>
+
+    <div class="goal-post left-goal"></div>
+    <div class="goal-post right-goal"></div>
+
+    <div class="football-content">
+
+
+        <div class="scoreboard">
+
+            <span>SCORE</span>
+
+            <h2 id="scoreText">
+
+                0 - 0
+
+            </h2>
+
+        </div>
+
+        <div class="section-title">
+
+            <h2>⚽ Football Champion</h2>
+
+            <p>
+                Every goal starts with believing in yourself.
+            </p>
+
+        </div>
+
+        <div id="footballBall">
+
+            ⚽
+
+        </div>
+
+
+
+        <div class="football-wrapper">
+
+            <div class="football-photo">
+
+                <img src="assets/photos/pic1.jpg"
+                     alt="Football">
+
+            </div>
+
+            <div class="football-details">
+
+                <h3>Future Football Star</h3>
+
+                <p>
+
+                    Fast.
+                    Brave.
+                    Fearless.
+
+                    Every kick brings another victory.
+
+                </p>
+
+                <button id="kickBallBtn"class="gold-btn">
+
+                    ⚽ TAKE THE SHOT
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ====================================================== -->
+<!-- CHESS WORLD -->
+<!-- ====================================================== -->
+
+<section id="chess">
+
+    <div class="chess-bg"></div>
+
+    <div class="gold-particles"></div>
+
+    <div class="chess-board"></div>
+
+    <div class="floating-king"></div>
+
+    <div class="floating-queen"></div>
+
+    <div class="chess-content">
+
+        <div class="section-title">
+
+            <h2>♟ Chess Master</h2>
+
+            <p>
+
+                Great champions think before every move.
+
+            </p>
+
+        </div>
+
+        <div class="chess-wrapper">
+
+            <div class="chess-photo">
+
+                <img src="assets/photos/pic2.jpg"
+                     alt="Chess">
+
+            </div>
+
+            <div class="chess-text">
+
+                <h3>Smart Moves</h3>
+
+                <p>
+
+                    Intelligence,
+                    patience,
+                    confidence
+                    and courage.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ====================================================== -->
+<!-- CRICKET WORLD -->
+<!-- ====================================================== -->
+
+<section id="cricket">
+
+    <div class="cricket-bg"></div>
+
+    <div class="pitch"></div>
+
+    <div class="stadium-lights"></div>
+
+    <div class="bat"></div>
+
+    <div class="cricket-ball"></div>
+
+    <div class="cricket-content">
+
+        <div class="section-title">
+
+            <h2>🏏 Cricket Star</h2>
+
+            <p>
+
+                Every match creates another memory.
+
+            </p>
+
+        </div>
+
+        <div class="cricket-wrapper">
+
+            <div class="cricket-photo">
+
+                <img src="assets/photos/pic3.jpg"
+                     alt="Cricket">
+
+            </div>
+
+            <div class="cricket-text">
+
+                <h3>Play With Passion</h3>
+
+                <p>
+
+                    Believe.
+                    Swing.
+                    Win.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ====================================================== -->
+<!-- MEMORY GALLERY -->
+<!-- ====================================================== -->
+
+<section id="gallery">
+
+    <div class="gallery-bg"></div>
+
+    <div class="gallery-content">
+
+        <div class="section-title">
+
+            <h2>📸 Memory Gallery</h2>
+
+            <p>
+
+                Beautiful memories never fade.
+
+            </p>
+
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-card">
+
+                <img src="assets/photos/pic1.jpg">
+
+            </div>
+
+            <div class="gallery-card">
+
+                <img src="assets/photos/pic2.jpg">
+
+            </div>
+
+            <div class="gallery-card">
+
+                <img src="assets/photos/pic3.jpg">
+
+            </div>
+
+            <div class="gallery-card">
+
+                <img src="assets/photos/pic4.jpg">
+
+            </div>
+
+            <div class="gallery-card">
+
+                <img src="assets/photos/pic5.jpg">
+
+            </div>
+
+            <div class="gallery-card">
+
+                <img src="assets/photos/pic6.jpg">
+
+            </div>
+
+            <div class="gallery-card">
+
+                <img src="assets/photos/pic7.jpg">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- ====================================================== -->
+<!-- HALL OF FAME -->
+<!-- ====================================================== -->
+
+<section id="hallOfFame">
+
+    <div class="hall-bg"></div>
+
+    <div class="hall-glow"></div>
+
+    <div class="hall-content">
+
+        <div class="section-title">
+
+            <h2>🏆 Hall Of Fame</h2>
+
+            <p>
+                Every champion earns their place.
+            </p>
+
+        </div>
+
+        <div class="trophy-room">
+
+            <div class="trophy-card">
+
+                <div class="trophy-icon"></div>
+
+                <img src="assets/photos/pic4.jpg"
+                     alt="Trophy">
+
+                <h3>Champion</h3>
+
+            </div>
+
+            <div class="trophy-card">
+
+                <div class="trophy-icon"></div>
+
+                <img src="assets/photos/pic5.jpg"
+                     alt="Achievement">
+
+                <h3>Winner</h3>
+
+            </div>
+
+            <div class="trophy-card">
+
+                <div class="trophy-icon"></div>
+
+                <img src="assets/photos/pic6.jpg"
+                     alt="Memory">
+
+                <h3>Future Star</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ====================================================== -->
+<!-- BIRTHDAY WISHES -->
+<!-- ====================================================== -->
+
+<section id="wishes">
+
+    <div class="wish-bg"></div>
+
+    <div class="wish-content">
+
+        <div class="section-title">
+
+            <h2>💌 Birthday Wishes</h2>
+
+            <p>
+                With love from your family.
+            </p>
+
+        </div>
+
+        <div class="wish-card">
+
+            <h3>Happy Birthday!</h3>
+
+            <p id="wishMessage">
+
+                Wishing you endless happiness,
+                exciting adventures,
+                great victories,
+                and beautiful memories.
+
+                Keep smiling.
+
+                Keep dreaming.
+
+                Keep winning.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ====================================================== -->
+<!-- GRAND FINALE -->
+<!-- ====================================================== -->
+
+<section id="finale">
+
+    <div class="night-sky"></div>
+
+    <div class="stars"></div>
+
+    <div id="fireworks"></div>
+
+    <div id="confetti"></div>
+
+    <div class="final-content">
+
+        <img src="assets/photos/hero.jpg"
+             alt="Birthday Boy">
+
+        <h3>Happy 11th Birthday</h3>
+
+        <h1>Champion!</h1>
+
+        <p>
+
+            May every year bring you
+            more happiness,
+            more victories,
+            and more unforgettable memories.
+
+        </p>
+
+        <button id="replayBtn">
+
+            🎉 Watch Again
+
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- ====================================================== -->
+<!-- FOOTER -->
+<!-- ====================================================== -->
+
+<footer>
+
+    <p>
+
+        Made with ❤️ for our Champion.
+
+    </p>
+
+</footer>
+
+<div id="goalText">
+
+    ⚽ GOOOOOAAALLLLL!! ⚽
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
